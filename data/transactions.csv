@@ -1,0 +1,6 @@
+id,customer,amount,status
+1,Amit,5000,Success
+2,Neha,15000,Success
+3,Rahul,25000,Failed
+4,Priya,8000,Success
+5,Arun,20000,Success
