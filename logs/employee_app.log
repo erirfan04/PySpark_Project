@@ -1,0 +1,13 @@
+2026-09-14 20:49:00,600 - __main__ - INFO - Application started
+2026-09-14 20:49:05,646 - __main__ - INFO - SparkSession created successfully
+2026-09-14 20:49:05,647 - __main__ - INFO - Reading employee CSV file
+2026-09-14 20:49:11,267 - __main__ - INFO - Employee CSV file loaded successfully
+2026-09-14 20:49:11,716 - __main__ - INFO - Displayed original employee data
+2026-09-14 20:49:11,717 - __main__ - INFO - Filtering employees from IT department
+2026-09-14 20:49:11,745 - __main__ - INFO - IT department filter applied
+2026-09-14 20:49:11,745 - __main__ - INFO - Displaying filtered IT employees
+2026-09-14 20:49:12,046 - __main__ - INFO - Filtered employee data displayed successfully
+2026-09-14 20:49:12,802 - __main__ - INFO - Number of IT employees: 3
+2026-09-14 20:49:12,803 - __main__ - INFO - Application completed successfully
+2026-09-14 20:55:35,688 - __main__ - INFO - SparkSession stopped
+2026-09-14 20:55:35,717 - py4j.clientserver - INFO - Closing down clientserver connection
