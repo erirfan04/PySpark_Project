@@ -11,3 +11,59 @@
 2026-09-14 20:49:12,803 - __main__ - INFO - Application completed successfully
 2026-09-14 20:55:35,688 - __main__ - INFO - SparkSession stopped
 2026-09-14 20:55:35,717 - py4j.clientserver - INFO - Closing down clientserver connection
+2026-09-14 20:56:52,882 - __main__ - INFO - Application started
+2026-09-14 20:56:59,448 - __main__ - INFO - SparkSession created successfully
+2026-09-14 20:56:59,448 - __main__ - INFO - Reading employee CSV file
+2026-09-14 20:57:05,264 - __main__ - INFO - Employee CSV file loaded successfully
+2026-09-14 20:57:05,702 - __main__ - INFO - Displayed original employee data
+2026-09-14 20:57:05,702 - __main__ - INFO - Filtering employees from IT department
+2026-09-14 20:57:05,754 - __main__ - INFO - IT department filter applied
+2026-09-14 20:57:05,756 - __main__ - INFO - Displaying filtered IT employees
+2026-09-14 20:57:06,248 - __main__ - INFO - Filtered employee data displayed successfully
+2026-09-14 20:57:07,166 - __main__ - INFO - Number of IT employees: 3
+2026-09-14 20:57:07,166 - __main__ - INFO - Application completed successfully
+2026-09-16 12:12:22,670 - __main__ - INFO - Application started
+2026-09-16 12:12:28,994 - __main__ - INFO - SparkSession created successfully
+2026-09-16 12:12:28,994 - __main__ - INFO - Reading employee CSV file
+2026-09-16 12:12:34,840 - __main__ - INFO - Employee CSV file loaded successfully
+2026-09-16 12:12:35,192 - __main__ - INFO - Displayed original employee data
+2026-09-16 12:12:35,192 - __main__ - INFO - Filtering employees from IT department
+2026-09-16 12:12:35,219 - __main__ - INFO - IT department filter applied
+2026-09-16 12:12:35,219 - __main__ - INFO - Displaying filtered IT employees
+2026-09-16 12:12:35,448 - __main__ - INFO - Filtered employee data displayed successfully
+2026-09-16 12:12:36,551 - __main__ - INFO - Number of IT employees: 3
+2026-09-16 12:12:36,556 - __main__ - INFO - Application completed successfully
+2026-09-16 12:23:50,836 - __main__ - INFO - SparkSession stopped
+2026-09-16 12:23:50,962 - py4j.clientserver - INFO - Closing down clientserver connection
+2026-09-16 12:24:07,879 - __main__ - INFO - Application started
+2026-09-16 12:24:21,694 - __main__ - INFO - SparkSession created successfully
+2026-09-16 12:24:21,695 - __main__ - INFO - Reading employee CSV file
+2026-09-16 12:24:37,741 - __main__ - INFO - Employee CSV file loaded successfully
+2026-09-16 12:24:39,618 - __main__ - INFO - Displayed original employee data
+2026-09-16 12:24:39,626 - __main__ - INFO - Filtering employees from IT department
+2026-09-16 12:24:39,733 - __main__ - INFO - IT department filter applied
+2026-09-16 12:24:39,741 - __main__ - INFO - Displaying filtered IT employees
+2026-09-16 12:24:41,349 - __main__ - INFO - Filtered employee data displayed successfully
+2026-09-16 12:24:43,745 - __main__ - INFO - Number of IT employees: 3
+2026-09-16 12:24:43,746 - __main__ - INFO - Application completed successfully
+2026-09-16 12:27:11,363 - __main__ - INFO - SparkSession stopped
+2026-09-16 12:27:11,422 - py4j.clientserver - INFO - Closing down clientserver connection
+2026-09-16 12:27:16,414 - __main__ - INFO - Application started
+2026-09-16 12:27:32,046 - __main__ - INFO - SparkSession created successfully
+2026-09-16 12:27:32,047 - __main__ - INFO - Reading employee CSV file
+2026-09-16 12:27:37,459 - __main__ - ERROR - Application failed with an exception
+Traceback (most recent call last):
+  File "D:\New folder\PySpark_Examples\main_logs_demo.py", line 54, in <module>
+    .csv("data/employees1.csv")
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\New folder\PySpark_Examples\venv\Lib\site-packages\pyspark\sql\readwriter.py", line 740, in csv
+    return self._df(self._jreader.csv(self._spark._sc._jvm.PythonUtils.toSeq(path)))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\New folder\PySpark_Examples\venv\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+  File "D:\New folder\PySpark_Examples\venv\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.AnalysisException: [PATH_NOT_FOUND] Path does not exist: file:/D:/New folder/PySpark_Examples/data/employees1.csv.
+2026-09-16 12:27:37,987 - __main__ - INFO - SparkSession stopped
+2026-09-16 12:27:38,075 - py4j.clientserver - INFO - Closing down clientserver connection

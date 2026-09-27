@@ -51,7 +51,7 @@ if __name__ == "__main__":
             spark.read
             .option("header", "true")
             .option("inferSchema", "true")
-            .csv("data/employees.csv")
+            .csv("data/employees1.csv")
         )
 
         logger.info("Employee CSV file loaded successfully")
@@ -71,6 +71,7 @@ if __name__ == "__main__":
         # --------------------------------------------------
 
         logger.info("Filtering employees from IT department")
+        logger.debug("Filtering employees from IT department")
 
         it_employees_df = employees_df.filter(
             col("department") == "IT"
